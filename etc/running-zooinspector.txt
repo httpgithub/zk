@@ -1,0 +1,9 @@
+To run ZooInspector (assuming you have installed ZK in /usr/local/zookeeper or created a symlink to it):
+
+1. Go to /usr/local/zookeeper/contrib/ZooInspector
+
+2. Run:
+
+  (if you have a version of ZK different than 3.4.5, then change the first part of the classpath)
+
+  java -cp zookeeper-3.4.5-ZooInspector.jar:lib/*:/usr/local/zookeeper/*:/usr/local/zookeeper/lib/* org.apache.zookeeper.inspector.ZooInspector
